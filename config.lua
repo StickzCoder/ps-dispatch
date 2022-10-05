@@ -3,12 +3,12 @@ Config = {}
 Config.Enable = {}
 Config.Timer = {}
 
-Config.PoliceJob = { "police", "bcso"}
+Config.PoliceJob = { "police", "sheriff", "lspd", "lscs", "sahp", "bcso"}
 
 -- Enable if you only want to send alerts to onDuty officers
 Config.OnDutyOnly = false
 
-Config.PoliceAndAmbulance = { "police", "ambulance", "bcso"}
+Config.PoliceAndAmbulance = { "police", "sheriff", "lspd", "lscs", "sahp", "bcso", "ambulance"}
 Config.PhoneModel = 'prop_npc_phone_02'
 
 -- sets report chance to 100%
