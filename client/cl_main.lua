@@ -55,7 +55,7 @@ function refreshPlayerWhitelisted()
 	if not PlayerData then return false end
 	if not PlayerData.job then return false end
 	if Config.Debug then return true end
-	for k,v in ipairs({'police'}) do
+	for k,v in ipairs({'police', 'sheriff', 'lspd', 'lscs', 'sahp', 'bcso'}) do
 		if v == PlayerData.job.name then
 			return true
 		end
